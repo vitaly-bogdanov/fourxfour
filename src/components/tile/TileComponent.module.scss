@@ -1,0 +1,17 @@
+.tile {
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 5px;
+  &:hover {
+    transform: translate(5px, -5px);
+    box-shadow: grey -5px 5px 5px;
+  }
+}
+
+.viewColor {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
