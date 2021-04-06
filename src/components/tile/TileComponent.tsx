@@ -27,7 +27,7 @@ interface Props extends IMapStateToProps, IMapDispatchToProps {
 const TileComponent: FC<Props> = props => {
   const tile = props.colors[props.colorIndex];
   let style = { backgroundColor: '#3f51b5' }
-  if (tile.open) style = { backgroundColor: tile.color };
+  if (tile.open) style = { backgroundColor: tile.color }; // если ячейка открыта то окрашивается в свой цвет
 
   const check = (event: MouseEvent<HTMLDivElement>): void => {
     if (tile.open) return; // при нажатии на уже открытую ячейку

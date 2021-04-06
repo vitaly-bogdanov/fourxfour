@@ -7,9 +7,9 @@ interface Props {};
 const MainLayout: FC<PropsWithChildren<Props>> = ({ children }) => (
   <>
     <HeaderComponent />
-    <main>
-      { children }
-    </main>
+      <main>
+        { children }
+      </main>
     <FooterComponent />
   </>
 );
