@@ -22,6 +22,7 @@ const BoardComponent: FC<Props> = props => {
         variant="contained" 
         color={viewColor ? "secondary" : "primary"}
         onClick={viewColorHendler}
+        className={classes.button}
       >
         Подсказка
       </Button>
